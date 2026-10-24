@@ -1,0 +1,5 @@
+# Lumen Launcher 运行依赖（Python 3.10+）
+# GUI：PySide6（LGPL），只需 Essentials 即可覆盖本启动器用到的所有模块
+PySide6-Essentials>=6.6
+# 网络：requests（超时 / 连接池 / 流式下载）
+requests>=2.31,<3
